@@ -1,0 +1,286 @@
+/*.bbr
+{
+	color: darkred;
+	margin: 50px;
+}
+.bbq
+{
+	color: darkpink;
+	margin: 50px;
+}
+.bbe
+{
+	color: red;
+	margin: 50px;
+}
+.bbt
+{
+	color: pink;
+	margin: 50px;
+}
+.bbd
+{
+	color: purple;
+	margin: 50px;
+}
+.cont
+{
+	display: flex;
+}
+img
+{
+	width: 500px;
+}
+*/
+.header
+{
+  background: black;
+}
+.container
+{
+	width: 1300px;
+	margin: 0px auto;
+}
+.nav__list
+{
+	display: flex;
+	list-style: none;
+
+}
+.nav__item
+{
+	color: #00C4F0;
+font-family: Nico Moji;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-right: 63px;
+}
+.container__header
+{
+	display: flex;
+	align-items: center;
+	padding: 36px; 0;
+}
+.header__img
+{
+	margin-right: auto;
+}
+.hero-block {
+	background:black;
+}
+.container_hero-block{
+   padding: 29px 0px 104px 0px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.hero-block__img
+{
+	width: 50%;
+}
+.hero-block__content{
+	width:35%;
+}
+.hero-block__title{
+	color: #E4E4E4;
+font-family: New Rocker;
+font-size: 72px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 30px;
+}
+.hero-block__text{
+	color: #FFF;
+font-family: Neucha;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 45px;
+} 
+.hero-block__btn{
+	color: #000;
+font-family: Neuton;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border: none;
+padding: 13px 9px;
+background: #FB8484;
+cursor: pointer;
+}
+.about{
+	background: black;
+}
+.container_about{
+	padding: 17px 156px;
+}
+.about__title{
+	color: #E4E4E4;
+font-family: Nico Moji;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 38px;
+text-align: center;
+}
+.about__content{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.about__img{
+	width: 45%;
+}
+.skills__name{
+	color: #FFF;
+font-family: Nico Moji;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 72px;
+}
+.skills__list{
+	list-style: 'none';
+	padding: 0;
+}
+.skills__item{
+	margin-bottom: 35px;
+}
+.skills__name{
+	margin-bottom: 27ps;
+}
+.skills__full{
+	width: 356px;
+	height: 10px;
+	background: #00C4F0;
+}
+.skills__title{
+	color: #FFF;
+font-family: Nico Moji;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.skills__done{
+	width: 70%;
+	height: 100%;
+	background: grey;
+}
+.skills__first{
+	width: 91%;
+}
+.skills__second{
+	width: 89%;
+}
+.skills_third{
+	width: 98%;
+}
+.video{
+ background: black;
+}
+.container__video{
+	padding: 70px 0 134px 0;
+}
+.video__title{
+	color: #E4E4E4;
+font-family: Nico Moji;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+margin-bottom: 70px;
+}
+.video__video{
+ width: 100%;
+ height: 611px;
+ border: 50px solid #414141;
+ border-radius: 2%;
+ box-sizing: border-box;
+}
+.gallary{
+	background: black;
+	padding: 70px 0 70px 0;
+}
+.gallar__title{
+	color: #E4E4E4;
+font-family: Nico Moji;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;\
+margin-bottom: 70px;
+}
+.gallary__list{
+	display: flex;
+	justify-content: center;
+	column-gap: 22px;
+	row-gap: 39px;
+	flex-wrap: wrap;
+	list-style: none;
+	}
+.gallary__item{
+	width: 30%;
+	height: 356px;
+}
+.gallary__img{
+	width: 100%;
+	height: 100%;
+}
+.footer{
+	background: #2C2C2C;
+}
+.container_footer{
+	padding: 50px 0 50px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer__title{
+	color: #E4E4E4;
+font-family: Nico Moji;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 18px;
+}
+.footer__text{
+	color: #FFF;
+font-family: Nico Moji;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 164.063;%
+}
+.footer__list{
+	display: flex;
+align-items: center;
+gap: 40px;
+list-style: none;
+}
+.footer__item{
+	margin-right: 40px;
+}
+.footer__item:not(:last_child){
+	margin-right: 40px;
+}
+.arrow__link{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+.arrow__img{
+	width: 50px;
+	height: 50px;
+	position: fixed;
+}
